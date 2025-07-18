@@ -1,0 +1,171 @@
+{
+  "propertyData": {
+    "properties": [
+      {
+        "address": "46 Wallaby Way, Sydney NSW 2000",
+        "type": "house",
+        "bedrooms": 4,
+        "bathrooms": 2,
+        "landSize": 650,
+        "price": 1750000,
+        "rentalIncome": 950,
+        "councilRate": 2400,
+        "waterRate": 1100,
+        "strata": 0,
+        "landTax": 4200,
+        "insuranceEstimate": 2200,
+        "zoning": "R2 - Low Density Residential",
+        "historicalGrowth": 6.2,
+        "floodRisk": "Very Low",
+        "fireRisk": "Low",
+        "yearBuilt": 1998,
+        "distanceToPublicTransport": 0.8,
+        "description": "Spacious family home in a quiet suburban street with modern renovations and a large backyard."
+      },
+      {
+        "address": "18/25 Harbour View, Circular Quay, Sydney NSW 2000",
+        "type": "apartment",
+        "bedrooms": 2,
+        "bathrooms": 2,
+        "landSize": 0,
+        "unitSize": 85,
+        "price": 2100000,
+        "rentalIncome": 1250,
+        "councilRate": 1800,
+        "waterRate": 950,
+        "strata": 6800,
+        "landTax": 0,
+        "insuranceEstimate": 1600,
+        "zoning": "R4 - High Density Residential",
+        "historicalGrowth": 5.9,
+        "floodRisk": "Low",
+        "fireRisk": "Low",
+        "yearBuilt": 2015,
+        "distanceToPublicTransport": 0.1,
+        "description": "Luxury apartment with stunning harbour views, concierge service, and access to pool and gym facilities."
+      },
+      {
+        "address": "7 Bondi Road, Bondi, Sydney NSW 2026",
+        "type": "house",
+        "bedrooms": 3,
+        "bathrooms": 1,
+        "landSize": 420,
+        "price": 2350000,
+        "rentalIncome": 1100,
+        "councilRate": 2600,
+        "waterRate": 1050,
+        "strata": 0,
+        "landTax": 5500,
+        "insuranceEstimate": 2500,
+        "zoning": "R2 - Low Density Residential",
+        "historicalGrowth": 7.1,
+        "floodRisk": "Low",
+        "fireRisk": "Low",
+        "yearBuilt": 1965,
+        "distanceToPublicTransport": 0.3,
+        "description": "Classic brick home walking distance to Bondi Beach with renovation potential and a north-facing garden."
+      },
+      {
+        "address": "205/120 Oxford Street, Darlinghurst, Sydney NSW 2010",
+        "type": "apartment",
+        "bedrooms": 1,
+        "bathrooms": 1,
+        "landSize": 0,
+        "unitSize": 58,
+        "price": 780000,
+        "rentalIncome": 620,
+        "councilRate": 1500,
+        "waterRate": 850,
+        "strata": 3900,
+        "landTax": 0,
+        "insuranceEstimate": 1200,
+        "zoning": "B4 - Mixed Use",
+        "historicalGrowth": 4.8,
+        "floodRisk": "Very Low",
+        "fireRisk": "Low",
+        "yearBuilt": 2008,
+        "distanceToPublicTransport": 0.2,
+        "description": "Modern one-bedroom apartment in the heart of Sydney's entertainment district with secure parking."
+      },
+      {
+        "address": "28 Parramatta Road, Strathfield, Sydney NSW 2135",
+        "type": "house",
+        "bedrooms": 5,
+        "bathrooms": 3,
+        "landSize": 780,
+        "price": 1950000,
+        "rentalIncome": 1050,
+        "councilRate": 2750,
+        "waterRate": 1200,
+        "strata": 0,
+        "landTax": 4800,
+        "insuranceEstimate": 2300,
+        "zoning": "R3 - Medium Density Residential",
+        "historicalGrowth": 5.6,
+        "floodRisk": "Medium",
+        "fireRisk": "Low",
+        "yearBuilt": 1985,
+        "distanceToPublicTransport": 0.5,
+        "description": "Large family home in popular school catchment area with recently renovated kitchen and double garage."
+      }
+    ]
+  },
+  "mortgageRates": {
+    "commonwealth": {
+      "ltv80plus": 6.25,
+      "ltv70to80": 5.95,
+      "ltvUnder70": 5.65
+    },
+    "westpac": {
+      "ltv80plus": 6.15,
+      "ltv70to80": 5.85,
+      "ltvUnder70": 5.55
+    },
+    "anz": {
+      "ltv80plus": 6.2,
+      "ltv70to80": 5.9,
+      "ltvUnder70": 5.6
+    },
+    "nab": {
+      "ltv80plus": 6.18,
+      "ltv70to80": 5.88,
+      "ltvUnder70": 5.58
+    },
+    "default": {
+      "ltv80plus": 6.3,
+      "ltv70to80": 6.0,
+      "ltvUnder70": 5.7
+    }
+  },
+  "stampDuty": {
+    "NSW": {
+      "thresholds": [
+        { "upperLimit": 300000, "baseAmount": 0, "rate": 0.015 },
+        { "upperLimit": 1000000, "baseAmount": 8990, "exceededRate": 0.045 },
+        { "upperLimit": null, "baseAmount": 40490, "exceededRate": 0.055 }
+      ]
+    },
+    "default": {
+      "rate": 0.04
+    }
+  },
+  "purchaseCosts": {
+    "legalFeesPercent": 0.02,
+    "maintenanceCostPercent": 0.01,
+    "defaultInsurancePercent": 0.003
+  },
+  "banks": [
+    "Commonwealth",
+    "Westpac",
+    "ANZ",
+    "NAB",
+    "St George",
+    "Bankwest",
+    "ING",
+    "Macquarie"
+  ],
+  "defaultValues": {
+    "loanTerm": 30
+  },
+  "dataLastUpdated": "2025-07-17 01:09:30"
+}

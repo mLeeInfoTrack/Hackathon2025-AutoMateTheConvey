@@ -1,0 +1,48 @@
+.App {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+.App-header {
+  margin-bottom: 10px;
+}
+
+.main-container {
+  display: grid;
+  grid-template-rows: auto 1fr;
+  grid-template-columns: 1fr;
+  grid-gap: 10px;
+  flex: 1;
+}
+
+.drag-drop {
+  border: 2px solid black;
+  padding: 20px;
+  text-align: center;
+  grid-column: 1 / -1;
+}
+
+.content-container {
+  display: grid;
+  grid-template-columns: 70% 30%;
+  grid-gap: 10px;
+  height: 100%;
+}
+
+.document-preview,
+.chat-window {
+  border: 2px solid black;
+  padding: 20px;
+  text-align: center;
+}
+
+.document-preview {
+  grid-column: 1;
+}
+
+.chat-window {
+  grid-column: 2;
+}
